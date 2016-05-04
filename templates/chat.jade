@@ -1,0 +1,17 @@
+doctype html
+html(lang="fr")
+    head
+        title Chat
+        link(type="text/css", rel="stylesheet", href="/style.css")
+    body
+        p
+        span Bonjour
+             |!{name}
+
+        p(id="fieldToComplet")
+
+        p
+        input(type="text", id="textChat", placeholder="Enter your text here !")
+        input(type="button", id="enterTextChat", value="send")
+        script(src="/socket.io/socket.io.js", type="text/javascript")
+        script(src="/client.js", type="text/javascript")
