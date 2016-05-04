@@ -1,3 +1,13 @@
+/*
+ *
+ * ChatDiscussion by Kevin Le Déeroff
+ * B.Sc SUPINFO Caen annee universitaire 2015-2016
+ * Projet sous licence CC-BY 4.0
+ * Pour plus d'informations, lire le Readme
+ *
+ */
+
+/* Input dans /chat  */
 input[type="text"]
 {
   font-size: 12px;
